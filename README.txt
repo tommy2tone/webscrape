@@ -1,0 +1,1 @@
+Basic web scraping script using Python and Beautiful Soup to track pricing of a product.

@@ -15,6 +15,7 @@ def get_current_price():
                 "Referer": "https://www.google.com/",
                 "Accept-Encoding": "gzip, deflate, br"}
 
+    # Example product
     url = "https://www.amazon.com/dp/B0C73VBPQY/?coliid=I26RDD5LPIPHEB&colid=3ADYLDR16DU9H&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it"
     page = requests.get(url, headers=headers).text
     soup = BeautifulSoup(page, 'lxml')
